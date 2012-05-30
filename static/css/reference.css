@@ -19,9 +19,15 @@ body {
 
 /* Index Pages
 ---------------------------------------------------------------------------------------- //// */
-#index {
-	padding:10%;
+
+#index,
+#tests {
+	margin:0 auto;
+	max-width:50em;
 	background:#fff}
+#index {
+	padding:10%}
+
 #index .updated {
 	margin:0 0 2em;
 	padding:.7em 5px;
@@ -141,7 +147,5 @@ a.index:focus {
 
 	/* index ----------------------------------------------- //// */
 	#index {
-		margin:0 auto;
-		padding:50px;
-		width:600px}
+		padding:5%}
 }
