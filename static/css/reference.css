@@ -110,6 +110,7 @@ body {
 a.index {
 	display:block;
 	position:absolute;
+	z-index:1;
 	top:0;
 	right:0;
 	padding:.5em 1em;
@@ -119,7 +120,8 @@ a.index {
 	color:rgba(255,255,255,.5);
 	text-decoration:none}
 a.index:hover,
-a.index:focus {
+a.index:focus,
+a.index:active {
 	background:rgba(0,0,0,.5);
 	color:rgba(255,255,255,1);
 	text-decoration:underline}
